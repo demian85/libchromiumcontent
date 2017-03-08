@@ -1,5 +1,5 @@
 diff --git a/third_party/WebKit/Source/core/dom/DOMArrayBuffer.h b/third_party/WebKit/Source/core/dom/DOMArrayBuffer.h
-index 6bfee91..55225a9 100644
+index 6bfee9123..55225a972 100644
 --- a/third_party/WebKit/Source/core/dom/DOMArrayBuffer.h
 +++ b/third_party/WebKit/Source/core/dom/DOMArrayBuffer.h
 @@ -28,6 +28,10 @@ class CORE_EXPORT DOMArrayBuffer final : public DOMArrayBufferBase {
@@ -23,7 +23,7 @@ index 6bfee91..55225a9 100644
  
  }  // namespace blink
 diff --git a/third_party/WebKit/Source/core/dom/DOMArrayBufferBase.h b/third_party/WebKit/Source/core/dom/DOMArrayBufferBase.h
-index 74738da..06395c6 100644
+index 74738dade..06395c693 100644
 --- a/third_party/WebKit/Source/core/dom/DOMArrayBufferBase.h
 +++ b/third_party/WebKit/Source/core/dom/DOMArrayBufferBase.h
 @@ -21,9 +21,24 @@ class CORE_EXPORT DOMArrayBufferBase
@@ -79,7 +79,7 @@ index 74738da..06395c6 100644
  
  }  // namespace blink
 diff --git a/third_party/WebKit/Source/web/WebArrayBuffer.cpp b/third_party/WebKit/Source/web/WebArrayBuffer.cpp
-index 271ec53..0862919 100644
+index 271ec5391..086291986 100644
 --- a/third_party/WebKit/Source/web/WebArrayBuffer.cpp
 +++ b/third_party/WebKit/Source/web/WebArrayBuffer.cpp
 @@ -39,6 +39,11 @@ WebArrayBuffer WebArrayBuffer::create(unsigned numElements,
@@ -95,7 +95,7 @@ index 271ec53..0862919 100644
    m_private.reset();
  }
 diff --git a/third_party/WebKit/public/web/WebArrayBuffer.h b/third_party/WebKit/public/web/WebArrayBuffer.h
-index 6acdddf..7a1097d 100644
+index 6acdddff8..7a1097d95 100644
 --- a/third_party/WebKit/public/web/WebArrayBuffer.h
 +++ b/third_party/WebKit/public/web/WebArrayBuffer.h
 @@ -51,6 +51,8 @@ class WebArrayBuffer {

@@ -1,5 +1,5 @@
 diff --git a/sandbox/mac/launchd_interception_server.cc b/sandbox/mac/launchd_interception_server.cc
-index 167fbab..ea009b4 100644
+index 167fbab58..ea009b4e3 100644
 --- a/sandbox/mac/launchd_interception_server.cc
 +++ b/sandbox/mac/launchd_interception_server.cc
 @@ -172,8 +172,10 @@ void LaunchdInterceptionServer::ForwardMessage(IPCMessage request) {
@@ -14,7 +14,7 @@ index 167fbab..ea009b4 100644
  
    message_server_->ForwardMessage(request, sandbox_->real_bootstrap_port());
 diff --git a/sandbox/mac/os_compatibility.cc b/sandbox/mac/os_compatibility.cc
-index e15e9cf..194e9f3 100644
+index e15e9cfaa..194e9f3a1 100644
 --- a/sandbox/mac/os_compatibility.cc
 +++ b/sandbox/mac/os_compatibility.cc
 @@ -157,7 +157,9 @@ class OSCompatibility_10_10 : public OSCompatibility {
@@ -28,7 +28,7 @@ index e15e9cf..194e9f3 100644
  
    bool IsSwapIntegerReadOnly(const IPCMessage message) override {
 diff --git a/sandbox/mac/pre_exec_delegate.cc b/sandbox/mac/pre_exec_delegate.cc
-index 1aac68b..f60b76d 100644
+index 1aac68be8..f60b76d0d 100644
 --- a/sandbox/mac/pre_exec_delegate.cc
 +++ b/sandbox/mac/pre_exec_delegate.cc
 @@ -70,7 +70,9 @@ xpc_object_t PreExecDelegate::CreateBootstrapLookUpMessage() {
@@ -60,7 +60,7 @@ index 1aac68b..f60b76d 100644
      // On non-XPC launchd systems, bootstrap_look_up() is MIG-based and
      // generally safe.
 diff --git a/sandbox/mac/xpc_message_server.cc b/sandbox/mac/xpc_message_server.cc
-index 858c7dd..df0ab5d 100644
+index 858c7ddf4..df0ab5d60 100644
 --- a/sandbox/mac/xpc_message_server.cc
 +++ b/sandbox/mac/xpc_message_server.cc
 @@ -52,7 +52,9 @@ void XPCMessageServer::Shutdown() {

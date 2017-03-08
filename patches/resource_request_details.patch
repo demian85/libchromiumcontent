@@ -1,5 +1,5 @@
 diff --git a/content/public/browser/resource_request_details.cc b/content/public/browser/resource_request_details.cc
-index 0e790b68..0b5140a 100644
+index 0e790b688..0b5140a41 100644
 --- a/content/public/browser/resource_request_details.cc
 +++ b/content/public/browser/resource_request_details.cc
 @@ -22,6 +22,10 @@ ResourceRequestDetails::ResourceRequestDetails(const net::URLRequest* request,
@@ -14,7 +14,7 @@ index 0e790b68..0b5140a 100644
    resource_type = info->GetResourceType();
    http_response_code =
 diff --git a/content/public/browser/resource_request_details.h b/content/public/browser/resource_request_details.h
-index e54e2c0..d817176 100644
+index e54e2c0fc..d817176d0 100644
 --- a/content/public/browser/resource_request_details.h
 +++ b/content/public/browser/resource_request_details.h
 @@ -10,6 +10,7 @@

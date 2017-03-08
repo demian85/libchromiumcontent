@@ -1,5 +1,5 @@
 diff --git a/src/snapshot/mksnapshot.cc b/src/snapshot/mksnapshot.cc
-index f4362e5..2cc8f43 100644
+index f4362e5077..2cc8f43811 100644
 --- a/src/snapshot/mksnapshot.cc
 +++ b/src/snapshot/mksnapshot.cc
 @@ -97,7 +97,7 @@ class SnapshotWriter {

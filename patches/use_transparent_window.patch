@@ -1,5 +1,5 @@
 diff --git a/ui/gl/gpu_switching_manager.cc b/ui/gl/gpu_switching_manager.cc
-index 5fdb3cc..16cb3e4 100644
+index 9718114c5..3d9e53926 100644
 --- a/ui/gl/gpu_switching_manager.cc
 +++ b/ui/gl/gpu_switching_manager.cc
 @@ -16,6 +16,12 @@
@@ -33,7 +33,7 @@ index 5fdb3cc..16cb3e4 100644
      : gpu_switching_option_(gl::PreferIntegratedGpu),
        gpu_switching_option_set_(false),
 diff --git a/ui/gl/gpu_switching_manager.h b/ui/gl/gpu_switching_manager.h
-index 4ac7620..e58c879 100644
+index 4ac762002..e58c87907 100644
 --- a/ui/gl/gpu_switching_manager.h
 +++ b/ui/gl/gpu_switching_manager.h
 @@ -25,6 +25,9 @@ class GL_EXPORT GpuSwitchingManager {

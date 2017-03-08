@@ -1,5 +1,5 @@
 diff --git a/third_party/WebKit/Source/core/editing/EditingBehavior.h b/third_party/WebKit/Source/core/editing/EditingBehavior.h
-index 3f098ef..01f1ad4 100644
+index 3f098ef2b..01f1ad4e9 100644
 --- a/third_party/WebKit/Source/core/editing/EditingBehavior.h
 +++ b/third_party/WebKit/Source/core/editing/EditingBehavior.h
 @@ -85,7 +85,7 @@ class CORE_EXPORT EditingBehavior {

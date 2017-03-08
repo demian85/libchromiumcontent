@@ -1,5 +1,5 @@
 diff --git a/src/ostreams.h b/src/ostreams.h
-index e72c8ee..9f25bca 100644
+index e72c8eec30..9f25bca7e7 100644
 --- a/src/ostreams.h
 +++ b/src/ostreams.h
 @@ -34,7 +34,7 @@ class OFStreamBase : public std::streambuf {
